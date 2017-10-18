@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[BirdGameViewController GameOver]:BirdGameViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self._score">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MiniGameViewController move]:MiniGameViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.center">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BirdGameViewController ShowTitle]:BirdGameViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MiniGameViewController IsInSnakeBody:]:MiniGameViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "body.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BirdGameViewController initGame]:BirdGameViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "bgView.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

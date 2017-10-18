@@ -1,0 +1,8 @@
+This XCode Project cannot be run, because the lib named libiPhone-lib.a and libil2cpp.a created by Unity is too large to upload.
+so before you run the project, maybe you should build (with append choice) once iOS project by Unity. ( 2017.1.1f )
+
+This is a Unity Project, can run with iOS 3DTouch and Today Extension.
+
+it is very easy to do everything, maybe I will update more later, with my learning step.
+
+You need to add an URL Schemes, "sdgExtension", to active openURL method useful.

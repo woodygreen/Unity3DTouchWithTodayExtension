@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Segues with Peek and Pop" minToolsVersion="7.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="行会聊天" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5j-qM-dEu">
+                                <rect key="frame" x="16" y="9" width="70" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="拍卖行" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lk-tf-4Qm">
+                                <rect key="frame" x="16" y="40" width="52" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="活动" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaa-n2-E78">
+                                <rect key="frame" x="16" y="69" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="万魔秘境 将在 01:27 后开启" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofn-fn-d3s">
+                                <rect key="frame" x="155" y="69" width="211" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3件 商品已经售出" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHZ-uz-TyL">
+                                <rect key="frame" x="99" y="40" width="136" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSw-Ou-GlH">
+                                <rect key="frame" x="99" y="4" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="查看"/>
+                                <connections>
+                                    <action selector="GridChart:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="Nb1-fL-c8a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDS-hL-iwQ">
+                                <rect key="frame" x="141" y="4" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="发送随机聊天"/>
+                                <connections>
+                                    <action selector="RandomChart:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="eG4-xo-yNe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wIO-ok-yYt">
+                                <rect key="frame" x="304" y="36" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="前往收取"/>
+                                <connections>
+                                    <action selector="AuctionHouse:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="vm6-sh-3lw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ktc-GP-QiX">
+                                <rect key="frame" x="99" y="64" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="刷新"/>
+                                <connections>
+                                    <action selector="RefreshActive:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="jbB-1Z-x1c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqq-OI-los">
+                                <rect key="frame" x="69" y="150" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="贪食蛇"/>
+                                <connections>
+                                    <segue destination="Dwm-Tu-f4k" kind="modal" id="w7e-5y-mgr">
+                                        <segue key="commit" inheritsFrom="parent" id="fQQ-py-uEV"/>
+                                        <segue key="preview" inheritsFrom="commit" id="bUx-j2-49B"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Szk-Zw-0Yi">
+                                <rect key="frame" x="222" y="150" width="77" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Flappy Bird"/>
+                                <connections>
+                                    <segue destination="G1h-2Z-vLY" kind="modal" id="URK-Ev-ktm">
+                                        <segue key="commit" inheritsFrom="parent" id="Qbb-Ky-q7W"/>
+                                        <segue key="preview" inheritsFrom="commit" id="ZJY-2P-iSi"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ssy-KU-ocm"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="fbH-b2-oUR"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Gq3-Ja-4xm" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="144.80000000000001" y="71.064467766116948"/>
+        </scene>
+        <!--Snake Game View Controller-->
+        <scene sceneID="29V-EW-gz2">
+            <objects>
+                <viewController id="Dwm-Tu-f4k" customClass="SnakeGameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yHe-QM-IDl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9f-g3-1cI">
+                                <rect key="frame" x="4" y="5" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="退出游戏"/>
+                                <connections>
+                                    <segue destination="Gq3-Ja-4xm" kind="unwind" unwindAction="unwindSegue:" id="S75-5g-QfJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thb-zf-gb1">
+                                <rect key="frame" x="61" y="97" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="➡️"/>
+                                <connections>
+                                    <action selector="moveRight:" destination="Dwm-Tu-f4k" eventType="touchUpInside" id="NKh-GO-tno"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fX3-c7-8dk">
+                                <rect key="frame" x="36" y="70" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="⬆️"/>
+                                <connections>
+                                    <action selector="moveUp:" destination="Dwm-Tu-f4k" eventType="touchUpInside" id="XMD-kV-sdg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZG-Lj-rwF">
+                                <rect key="frame" x="36" y="123" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="⬇️"/>
+                                <connections>
+                                    <action selector="moveDown:" destination="Dwm-Tu-f4k" eventType="touchUpInside" id="d7g-3O-W6d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCS-9d-cmc">
+                                <rect key="frame" x="11" y="97" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="⬅️"/>
+                                <connections>
+                                    <action selector="moveLeft:" destination="Dwm-Tu-f4k" eventType="touchUpInside" id="KbL-jw-mRo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Hh1-ax-jQQ"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YE6-Aw-nGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="878" y="72"/>
+        </scene>
+        <!--Bird Game View Controller-->
+        <scene sceneID="FBD-Qa-siY">
+            <objects>
+                <viewController id="G1h-2Z-vLY" customClass="BirdGameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mKG-5h-2Sm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCq-w4-hHr">
+                                <rect key="frame" x="0.0" y="0.0" width="75" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="back"/>
+                                <connections>
+                                    <action selector="BackToMain:" destination="G1h-2Z-vLY" eventType="touchUpInside" id="NKl-OU-QJp"/>
+                                    <segue destination="Gq3-Ja-4xm" kind="unwind" unwindAction="unwindSegue:" id="AeP-f2-Yxz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="0Jc-Ek-6FF"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GHn-e3-F78" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="144.80000000000001" y="392.20389805097454"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="131" height="74"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="URK-Ev-ktm"/>
+        <segue reference="w7e-5y-mgr"/>
+    </inferredMetricsTieBreakers>
+</document>
